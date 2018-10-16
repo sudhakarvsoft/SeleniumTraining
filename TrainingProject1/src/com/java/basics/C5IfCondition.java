@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class C5IfCondition {
 
 	public static void main(String[] args) {
-
+		
 		// find a number is odd number
 		String strN = JOptionPane.showInputDialog("enter number");
 
