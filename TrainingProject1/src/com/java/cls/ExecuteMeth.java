@@ -1,5 +1,7 @@
 package com.java.cls;
 
+import java.util.ArrayList;
+
 public class ExecuteMeth {
 
 	public static void main(String[] args) {
@@ -18,6 +20,12 @@ public class ExecuteMeth {
 		for(int val:x) {
 			System.out.println(val);
 		}
+		
+		ArrayList<Integer> y = ms.getOddNumbers1(20, 30);
+		for(int val:y) {
+			System.out.println(val);
+		}
+		
 	}
 
 }

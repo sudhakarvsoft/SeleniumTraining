@@ -1,5 +1,7 @@
 package com.java.cls;
 
+import java.util.ArrayList;
+
 public class MethodSamples {
 
 	public boolean isOdd(int n) {
@@ -34,6 +36,18 @@ public class MethodSamples {
 			if (i % 2 == 1) {
 				odNumbers[c] = i;
 				c++;
+			}
+		}
+
+		return odNumbers;
+	}
+	public ArrayList<Integer> getOddNumbers1(int rStart, int rEnd) {
+
+		ArrayList<Integer> odNumbers = new ArrayList<>();
+
+		for (int i = rStart; i <= rEnd; i++) {
+			if (i % 2 == 1) {
+				odNumbers.add(i);
 			}
 		}
 
