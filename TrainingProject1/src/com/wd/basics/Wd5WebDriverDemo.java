@@ -1,5 +1,7 @@
 package com.wd.basics;
 
+import java.util.Date;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -15,6 +17,8 @@ public class Wd5WebDriverDemo {
 		cd.get("http://google.com");
 		System.out.println(cd.getTitle());
 		cd.quit();
+		
+	
 	}
 
 }
