@@ -1,0 +1,30 @@
+<!DOCTYPE html> <html> <head> <title>SamplePage</title> <style> h1 {color: blue;} input {background-color: powderblue;} .demo {background-color: yellow;} #lname{color: red;} </style> </head> <body> <h1>This is a Sample Registration Page</h1> <table> <tr> <td class="demo">FirstName:</td> <td><input type="text" id="fname" /></td> </tr> <tr> <td>LastName:</td> <td><input type="text" id="lname" /></td> </tr><tr>
+<td>Gender:</td>
+<td>Male<input type="radio" name="g"> Female<input type="radio" name="g"></td>
+</tr>
+<tr>
+<td>Country</td>
+<td><select>
+<option>Select One</option>
+<option>India</option>
+<option>USA</option>
+<option>China</option>
+</select></td>
+</tr>
+<tr>
+<td>
+<a href="google.com">Accept Terms</a></td>
+<td><input type="checkbox"> </td>
+</tr>
+<tr>
+<td colspan=2 align="center"><input type="button" value="submit" onclick="myFunction()"/></td>
+</tr>
+</table>
+<script>
+function myFunction() {
+var firstname = document.getElementById("fname").value;
+alert(firstname);
+}
+</script>
+</body>
+</html>
