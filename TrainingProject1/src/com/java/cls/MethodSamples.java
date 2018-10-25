@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class MethodSamples {
 
+	public MethodSamples() {
+		System.out.println("precondition executed");
+	}
+
 	public boolean isOdd(int n) {
 
 		if (n % 2 == 1) {
@@ -41,6 +45,7 @@ public class MethodSamples {
 
 		return odNumbers;
 	}
+
 	public ArrayList<Integer> getOddNumbers1(int rStart, int rEnd) {
 
 		ArrayList<Integer> odNumbers = new ArrayList<>();
