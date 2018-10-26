@@ -2,6 +2,7 @@ package com.wd.util;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -13,7 +14,11 @@ public class DriverFactory {
 		switch (brName.toLowerCase()) {
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "C:\\SeleniumSoftware\\BD\\chromedriver.exe");
-			return new ChromeDriver();
+			ChromeOptions co = new ChromeOptions();
+			//https://peter.sh/experiments/chromium-command-line-switches/
+			co.addArguments("--disable-notifications");
+			
+			return new ChromeDriver(co);
 		case "firefox":
 			System.setProperty("webdriver.gecko.driver", "C:\\SeleniumSoftware\\BD\\geckodriver.exe");
 			return new FirefoxDriver();
