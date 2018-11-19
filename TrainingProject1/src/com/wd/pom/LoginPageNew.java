@@ -1,11 +1,12 @@
 package com.wd.pom;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class LoginPage extends BasePage{
+public class LoginPageNew extends LoginPage{
 
 	private static By txt_UserName = By.id("user_name");
 	private static By txt_Password = By.name("user_password");
@@ -33,28 +34,16 @@ public class LoginPage extends BasePage{
 	private Select lstEnvironment() {
 		return new Select(elmEnvironment());
 	}
-	
-	// operating methods
-	public void enterTextOnUserName(String valToEnter) {
-		txtUserName().sendKeys(valToEnter);
-		System.out.println(valToEnter + " entered on UserName");
-	}
-
 	public void enterTextOnPassword(String valToEnter) {
 		txtPassword().sendKeys(valToEnter);
 		System.out.println(valToEnter + " entered on Password");
+		System.out.println("from LoginPage New");
 	}
 
 	public void clickOnLogin() {
-		btnLogin().click();
-		System.out.println("Clicked on Login");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();",btnLogin());
+		System.out.println("Clicked on Login using JS Executor");
 	}
 	
-	public void selectEnvironment(String valToSelect) {
-		lstEnvironment().selectByVisibleText(valToSelect);
-	}
-
-	public void selectEnvironment(WebElement elm, String valToSelect) {
-		new Select(elm).selectByVisibleText(valToSelect);
-	}
 }
