@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16522" started-at="2018-11-20T10:03:13Z" finished-at="2018-11-20T10:03:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16522" started-at="2018-11-20T10:03:13Z" finished-at="2018-11-20T10:03:30Z">
+      <class name="com.wd.tng.LssLogin2">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.wd.tng.LssLogin2@5c7fa833]" name="openApplication" is-config="true" duration-ms="13355" started-at="2018-11-20T10:03:13Z" finished-at="2018-11-20T10:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.wd.tng.LssLogin2@5c7fa833]" name="login" duration-ms="2276" started-at="2018-11-20T10:03:26Z" finished-at="2018-11-20T10:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.wd.tng.LssLogin2@5c7fa833]" name="closeApplication" is-config="true" duration-ms="873" started-at="2018-11-20T10:03:29Z" finished-at="2018-11-20T10:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.wd.tng.LssLogin2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

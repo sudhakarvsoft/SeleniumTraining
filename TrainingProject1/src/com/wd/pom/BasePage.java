@@ -20,4 +20,8 @@ public class BasePage {
 
 		return new LoginPage();
 	}
+	
+	public void closeApplication() {
+		driver.quit();
+	}
 }

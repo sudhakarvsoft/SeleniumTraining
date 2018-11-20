@@ -1,0 +1,16 @@
+<suite name="reg">
+	<test name="c1">
+
+		<classes>
+			<class name="com.tng.basics.Test1" />
+		</classes>
+	</test>
+
+	<test name="c2">
+
+		<classes>
+			<class name="com.tng.basics.Test2" />
+		</classes>
+	</test>
+
+</suite>
