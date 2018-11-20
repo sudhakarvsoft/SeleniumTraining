@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo]" parallel="tests">
+  <test thread-count="5" name="reg2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tng.ohrm.OhrmAddEmp_TL">
+        <methods>
+          <include name="OhrmAddEmployee"/>
+        </methods>
+      </class> <!-- com.tng.ohrm.OhrmAddEmp_TL -->
+    </classes>
+  </test> <!-- reg2(failed) -->
+  <test thread-count="5" name="reg1(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.tng.ohrm.OhrmAddEmp_TL">
+        <methods>
+          <include name="OhrmAddEmployee"/>
+        </methods>
+      </class> <!-- com.tng.ohrm.OhrmAddEmp_TL -->
+    </classes>
+  </test> <!-- reg1(failed) -->
+</suite> <!-- Failed suite [demo] -->

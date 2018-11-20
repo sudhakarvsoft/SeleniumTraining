@@ -14,7 +14,7 @@ public class LoginPagePOF extends BasePage{
 
 	
 	public LoginPagePOF() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	@FindBy(id="user_name") private WebElement txtUserName;
@@ -26,7 +26,7 @@ public class LoginPagePOF extends BasePage{
 	@FindBy(xpath="//button[text()='Login']") private WebElement btnLogin;
 
 	private WebElement elmEnvironment() {
-		return driver.findElement(lst_Environment);
+		return getDriver().findElement(lst_Environment);
 	}
 	
 	private Select lstEnvironment() {

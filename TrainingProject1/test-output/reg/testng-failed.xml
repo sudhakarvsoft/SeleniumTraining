@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [reg]" parallel="tests">
+  <test thread-count="5" name="c1(failed)" parallel="tests">
+    <parameter name="password" value="asdf"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="As05744"/>
+    <classes>
+      <class name="com.wd.tng.LssLoginParameters">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wd.tng.LssLoginParameters -->
+    </classes>
+  </test> <!-- c1(failed) -->
+  <test thread-count="5" name="c2(failed)" parallel="tests">
+    <parameter name="password" value="asdf"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="As05744"/>
+    <classes>
+      <class name="com.wd.tng.LssLoginParameters">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wd.tng.LssLoginParameters -->
+    </classes>
+  </test> <!-- c2(failed) -->
+</suite> <!-- Failed suite [reg] -->

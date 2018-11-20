@@ -15,19 +15,19 @@ public class LoginPage extends BasePage{
 	
 	// identification methods
 	private WebElement txtUserName() {
-		return driver.findElement(txt_UserName);
+		return getDriver().findElement(txt_UserName);
 	}
 
 	private WebElement txtPassword() {
-		return driver.findElement(txt_Password);
+		return getDriver().findElement(txt_Password);
 	}
 
 	private WebElement btnLogin() {
-		return driver.findElement(btn_Login);
+		return getDriver().findElement(btn_Login);
 	}
 
 	private WebElement elmEnvironment() {
-		return driver.findElement(lst_Environment);
+		return getDriver().findElement(lst_Environment);
 	}
 	
 	private Select lstEnvironment() {
