@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class LoginPage extends BasePageGrid{
+public class LoginPage extends BasePage{
 
 	private static By txt_UserName = By.id("user_name");
 	private static By txt_Password = By.name("user_password");
