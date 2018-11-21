@@ -1,0 +1,27 @@
+<suite name="reg" parallel="tests">
+
+	<test name="c1">
+		<parameters>
+			<parameter name="userName" value="As05744" />
+			<parameter name="password" value="asdf" />
+			<parameter name="browser" value="chrome" />
+			<parameter name="os" value="windows10" />
+		</parameters>
+		<classes>
+			<class name="com.wd.tng.LssLoginParameters" />
+		</classes>
+	</test>
+	<test name="c2">
+		<parameters>
+			<parameter name="userName" value="As05744" />
+			<parameter name="password" value="asdf" />
+			<parameter name="browser" value="chrome" />
+			<parameter name="os" value="windows10" />
+		</parameters>
+		<classes>
+			<class name="com.wd.tng.LssLoginParameters" />
+		</classes>
+	</test>
+
+
+</suite>
