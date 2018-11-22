@@ -38,5 +38,6 @@
 	<classpathentry kind="lib" path="C:/SeleniumSoftware/commons-compress-1.18/commons-compress-1.18-sources.jar"/>
 	<classpathentry kind="lib" path="C:/SeleniumSoftware/commons-compress-1.18/commons-compress-1.18-tests.jar"/>
 	<classpathentry kind="lib" path="C:/SeleniumSoftware/commons-compress-1.18/commons-compress-1.18-test-sources.jar"/>
+	<classpathentry kind="lib" path="Resources/ngwebdriver-1.1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

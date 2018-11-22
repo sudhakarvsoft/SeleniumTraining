@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44523" started-at="2018-11-21T10:40:26Z" finished-at="2018-11-21T10:41:11Z">
+  <suite name="Default suite" duration-ms="11083" started-at="2018-11-22T11:22:20Z" finished-at="2018-11-22T11:22:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44523" started-at="2018-11-21T10:40:26Z" finished-at="2018-11-21T10:41:11Z">
-      <class name="com.wd.tng.LssLoginTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.wd.tng.LssLoginTest@2a2d45ba]" name="login" duration-ms="14713" started-at="2018-11-21T10:40:26Z" data-provider="geData" finished-at="2018-11-21T10:40:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaa]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bbb]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="11083" started-at="2018-11-22T11:22:20Z" finished-at="2018-11-22T11:22:31Z">
+      <class name="com.tng.ohrm.WorkingWithCalculator">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.tng.ohrm.WorkingWithCalculator@146ba0ac]" name="openApplication" is-config="true" duration-ms="8805" started-at="2018-11-22T11:22:20Z" finished-at="2018-11-22T11:22:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.wd.tng.LssLoginTest@2a2d45ba]" name="login" duration-ms="13067" started-at="2018-11-21T10:40:41Z" data-provider="geData" finished-at="2018-11-21T10:40:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ccc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dddd]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="add()[pri:0, instance:com.tng.ohrm.WorkingWithCalculator@146ba0ac]" name="add" duration-ms="2246" started-at="2018-11-22T11:22:29Z" finished-at="2018-11-22T11:22:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.wd.tng.LssLoginTest@2a2d45ba]" name="login" duration-ms="16700" started-at="2018-11-21T10:40:54Z" data-provider="geData" finished-at="2018-11-21T10:41:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qqqw]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.tng.ohrm.WorkingWithCalculator@146ba0ac]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-11-22T11:22:31Z" finished-at="2018-11-22T11:22:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.wd.tng.LssLoginTest -->
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.tng.ohrm.WorkingWithCalculator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
