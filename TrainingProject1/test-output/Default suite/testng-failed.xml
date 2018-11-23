@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tng.ohrm.WorkingWithAngularApp_Table">
+      <class name="com.tng.ohrm.OhrmReporting_Extent">
         <methods>
-          <include name="openApplication"/>
-          <include name="closeApplication"/>
-          <include name="login"/>
           <include name="addEmployee"/>
+          <include name="login"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
         </methods>
-      </class> <!-- com.tng.ohrm.WorkingWithAngularApp_Table -->
+      </class> <!-- com.tng.ohrm.OhrmReporting_Extent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
